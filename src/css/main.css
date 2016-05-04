@@ -1366,3 +1366,15 @@ section#timeline article:nth-child(5) div.inner h2 {
 section#timeline article:nth-child(5) div.inner h2:after {
   background: #02BDD5;
 }
+
+.definitions p {
+  font-style: 10px;
+}
+
+
+
+
+
+
+
+
