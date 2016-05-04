@@ -1370,6 +1370,7 @@ section#timeline article:nth-child(5) div.inner h2:after {
 .definitions p {
   font-size: 10px;
   color: #999;
+  padding-top: 50px;
 }
 
 
