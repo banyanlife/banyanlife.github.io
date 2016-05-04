@@ -30,9 +30,11 @@ ul li {
   text-align: left
 }
 
-.fa-check-square-o {
+.fa-check-square-o .fa-link {
   color: #02bdd5;
 }
+
+
 
 h2 {
   font-size: 26px;
