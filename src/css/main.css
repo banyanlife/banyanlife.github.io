@@ -25,6 +25,10 @@ ul li {
   list-style: none;
   text-align: center;
 }
+ 
+a {
+  color: #02bdd5;
+}
 
 .headstart-li ul li{
   text-align: left
@@ -43,10 +47,10 @@ h2 {
 }
 a:hover {
   text-decoration: none;
+  color: #02bdd5;
 }
 .section-heading {
   text-align: center;
-  margin-bottom: 65px;
 }
 .section-heading p {
   font-size: 14px;
@@ -210,6 +214,12 @@ a:hover {
   border-radius: 100px;
 }
 
+.info-video {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 #call-to-action {
   background: #02bdd5;
   background-size: cover;
@@ -247,6 +257,23 @@ a:hover {
 }
 #call-to-action .block .btn-contact i {
   margin-right: 10px;
+}
+
+.milestones {
+  padding-top: 85px;
+  text-align: center;
+}
+
+.milestones i {
+  color: #02bdd5;
+}
+
+.fa {
+  text-align: center;
+}
+
+.milestones p {
+  text-align: center;
 }
 
 #about {
@@ -1111,6 +1138,9 @@ article {
 
 
 /* Pricing */
+.btn-group {
+  padding-bottom: 15px;
+}
 .pricing-grid .plan {
   margin: 0 0 30px;
   border: 1px solid #e0e2e3;
