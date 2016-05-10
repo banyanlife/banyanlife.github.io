@@ -108,6 +108,11 @@ a:hover {
 .navbar-inverse .navbar-toggle {
   background: #444;
 }
+
+.navbar-brand .img {
+  padding-right: 10px;
+}
+
 #top-bar {
   background: #fff;
   color: #fff;
@@ -274,6 +279,10 @@ a:hover {
 
 .milestones p {
   text-align: center;
+}
+
+.milestone-description p {
+  font-size: 3px;
 }
 
 #about {
