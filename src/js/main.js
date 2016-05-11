@@ -139,5 +139,3 @@ $('#switch-forms .btn').on('click', function() {
 
 
 
-
-

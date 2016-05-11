@@ -1480,6 +1480,15 @@ section#timeline article:nth-child(5) div.inner h2:after {
 
 
 
+/*Frequently Asked Questions*/
+.faq {
+  padding-top: 40px;
+}
+
+/*Definitions*/
+.definitions {
+  padding-top: 40px;
+}
 
 
 
