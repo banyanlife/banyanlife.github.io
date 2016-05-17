@@ -113,50 +113,24 @@ a:focus {
 }
 
 /* MENU CONFIGURATION*/
-.menu {
-	position: fixed;
-	right: -200px;
-	width: 260px;
-	height: 100%;
-	top: 0;
-	z-index: 10;
-	text-align: left;
+.navbar-default .navbar-brand {
+	color: #fff;
+	font-weight: 500px;
 }
 
-.menu.menu-open {
-	right: 0px;
+.navbar-default {
+	margin-bottom: -40px;
+	border-radius: 0px;
+	background-color: #03C9A9;
+	border-color: transparent;]
 }
 
-.menu-wrap {
-	position: absolute;
-	top: 0;
-	left: 60px;
-	background: #1a1a1a;
-	width: 200px;
-	height: 100%;
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+	font-family: inherit;
 }
 
-.menu h1.logo a {
-	font-family: "Lato", sans-serif;
-	font-size: 16px;
-	font-weight: 900;
-	letter-spacing: 0.15em;
-	line-height: 40px;
-	text-transform: uppercase;
-	color: #ffffff;
-	margin-top: 20px;
-}
-
-.menu h1.logo a:hover {
-	color: #03C9A9;
-}
-
-.menu img.logo {
-	margin: 20px 0;
-	max-width: 160px;
-}
-
-.menu a {
+/*.menu a {
 	margin-left: 20px;
 	color: #808080;
 	display: block;
@@ -211,7 +185,11 @@ a:focus {
 		-ms-transition: all .1s ease-in-out;
 		 -o-transition: all .1s ease-in-out;
 			transition: all .1s ease-in-out;
-}
+}*/
+
+/*.nm-logo {
+	padding-top: 100px;
+}*/
 
 /*Info: TERM LIFE vs. WHOLE LIFE*/
 .info {

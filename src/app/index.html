@@ -33,22 +33,37 @@
   <body data-spy="scroll" data-offset="0" data-target="#theMenu">
 
   <!-- Menu -->
-  <nav class="menu" id="theMenu">
-    <div class="menu-wrap">
-      <h1 class="logo"><a href="index.html#home">Banyan Life</a></h1>
-      <i class="ion-android-close menu-close"></i>
-      <a href="#home" class="smoothScroll">Home</a>
-      <a href="#start" class="smoothScroll">Getting Started</a>
-      <a href="#topics" class="smoothScroll">How It Works</a>
-      <a href="#purchase" class="smoothScroll">Purchase</a>
-      <a href="#app" class="smoothScroll">Mobile App</a>
-      <a href="#expect" class="smoothScroll">What to Expect</a>
-      <a href="#NM" class="smoothScroll">About NM</a>
-      <a href="#greatthings" class="smoothScroll">Great Things</a>
-    </div>
-    
-    <!-- Menu button -->
-    <div id="menuToggle"><i class="ion-home"></i></div>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Banyan Life</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#home" class="smoothScroll">Home</a></li>
+          <li><a href="#start" class="smoothScroll">Getting Started</a></li>
+          <li><a href="#topics" class="smoothScroll">How It Works</a></li>
+          <li><a href="#purchase" class="smoothScroll">Purchase</a></li>
+          <li><a href="#app" class="smoothScroll">Mobile App</a></li>
+          <li><a href="#expect" class="smoothScroll">What to Expect</a></li>
+          <li><a href="#NM" class="smoothScroll">About NM</a></li>
+          <li><a href="#greatthings" class="smoothScroll">Great Things</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><i class="fa fa-sign-in" aria-hidden="true"></i> Sign in</a></li>
+          <li><a href="#"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> Register</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
   </nav>
 
    <!-- ********** HEADER ********** -->
@@ -58,11 +73,18 @@
       <div class="row">
         <div class="col-md-6">
           <h1>Banyan Life</h1>
-          <h5>Whole life insurance for infants and kids</h5>
-          <h2>Give your child a head start in life by purchasing a low-risk high-dividend yeilding whole life insurance policy</h2>
+          <!-- <h5>a product of Northwestern Mutual</h5> -->
+          <img src="assets/img/nm_logo.png" align="left">
+          <br>
+          <br>
+          <h2>Start saving for your child's financial head start with a high-dividend yielding whole life insurance policy</h2>
+        </div>
+        <div class="col-md-6">
+          <!-- <div class="nm-logo">
+            <img src="assets/img/nm_logo.png">
+          </div> -->
         </div>
       </div><!--/row -->
-      <!-- <p class="mt"><button class="btn btn-conf btn-green">Learning Center</button><button class="btn btn-conf btn-clear">Purchase</button></p> -->
     </div><!--/container -->
    </div><!--/H -->
 
@@ -139,7 +161,7 @@
                 <h5><i class="ion-android-close"></i> 529 Plan - Can only be used for educational expenses &amp; growth of asset is tied to stock market performance</h5>
                 <h5><i class="ion-android-close"></i> UTMA Account - Child automatically has access to the cash at 18 or 21 depending on the state &amp; gains may be taxable</h5>
                 <h5><i class="ion-android-close"></i> Using retirement funds like a 401k or IRA to pay for life's milestones can result in penalities, tax implications, or delayed retirement goals</h5>
-                <h5><i class="ion-android-done"></i> <b>Whole Life Insurance - Guaranteed growth, total flexibility!</b></h5>
+                <h5><i class="ion-android-done"></i> <b>Whole Life Insurance for kids - Guaranteed growth, total flexibility!</b></h5>
                 <p class="mt"><button class="btn btn-conf btn-clear" data-toggle="modal" data-target=".bs-example-modal-lg">Click to Compare Investment Classes</button></p>
 
                 <!-- Modal -->
@@ -227,7 +249,7 @@
             <div class="col-md-6">
               <h3 class="mb">THE WHOLE FAMILY</h3>
               <p>Never forget why you bought the protection and financial headstart. Our moble app allows you to track the progress of your policy, invite friends and family to contribute to the equity portion of the policy (yearly limits apply), and learn about important life milestones and common financial planning best practices.</p>
-              <i class="ion-android-done"></i> Your family can help contribute to funding your child's major life milestones.
+              <i class="ion-ios-checkmark-outline"></i> Your family can help contribute to funding your child's major life milestones.
               <br>
               <br>
               <img src="assets/img/DownloadAppStore.png"> <i>coming soon!</i>
