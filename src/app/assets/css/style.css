@@ -118,15 +118,24 @@ a:focus {
 	font-weight: 500px;
 }
 
+.navbar-nav {
+	padding-left: 100px;
+}
+
 .navbar-default {
-	margin-bottom: -40px;
+	margin-bottom: -53px;
 	border-radius: 0px;
-	background-color: #03C9A9;
+	background-color: transparent;
 	border-color: transparent;]
 }
 
 .navbar-default .navbar-nav>li>a {
 	color: #fff;
+	font-family: inherit;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #03c9a9;
 	font-family: inherit;
 }
 
@@ -360,7 +369,7 @@ input {
 /* HEADER SECTION */
 #h {
 	background: url(../img/baby.jpg) no-repeat center top;
-	padding-top: 210px;
+	padding-top: 170px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
@@ -395,6 +404,14 @@ input {
 #h h2 {
 	font-size: 35px;
 	text-align: left;
+}
+
+#h p {
+	color: #fff;
+	font-size: 12px;
+	text-align: left;
+	margin-top: -11px;
+	margin-bottom: 4px;
 }
 
 /* DIVIDEND SECTION */
