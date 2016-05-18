@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('myApp.view2', ['ngRoute'])
+angular.module('myApp.faq', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/faq', {
@@ -9,6 +9,6 @@ angular.module('myApp.view2', ['ngRoute'])
   });
 }])
 
-.controller('MhqCtrl', [function() {
+.controller('FaqCtrl', [function() {
 
 }]);
