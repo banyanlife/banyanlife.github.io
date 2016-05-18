@@ -118,10 +118,6 @@ a:focus {
 	font-weight: 500px;
 }
 
-.navbar-nav {
-	padding-left: 100px;
-}
-
 .navbar-default {
 	margin-bottom: -53px;
 	border-radius: 0px;
@@ -446,7 +442,7 @@ input {
 	height: 100%;
 	padding-top: 40px;
 	padding-bottom: 80px;
-	height: 450px;
+	height: 475px;
 }
 
 .section-bg-color h3, .section-bg-color h1, .section-bg-color h4, .section-bg-color h5, .section-bg-color p {
@@ -460,7 +456,7 @@ input {
 	height: 100%;
 	padding-top: 40px;
 	padding-bottom: 80px;
-	height: 450px;
+	height: 475px;
 }
 
 .section-dg-color h3, .section-dg-color h1,.section-dg-color h5, .section-dg-color p {
