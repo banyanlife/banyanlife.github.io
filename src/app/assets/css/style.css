@@ -675,6 +675,30 @@ input {
 	text-align: left;
 }
 
+/* CONTRIBUTIONS */
+.contribute {
+	padding-top: 55px;
+	color: #fff;
+}
+
+.contribute h1 {
+	padding-top: 1px;
+	color: #03c9a9;
+	font-weight: 700px;
+}
+
+.contribute-steps {
+	color: #fff;
+	font-size: 20px;
+}
+
+.contribute-steps ul {
+    list-style-type: none;
+    text-align: left;
+    font-size: 22px;
+    color: #fff;
+}
+
 /* SPONSORS */
 
 .sponsor img {
