@@ -220,7 +220,7 @@ tg {
 }
 /*Text Green*/
 tgr {
-  color: #03C9A9;
+  color: #002B49;
 }
 
 hr {
@@ -277,7 +277,7 @@ input {
   }
 
 .btn-green {
-  background: #03C9A9;
+  background: #FFBB1C;
   color: white;
 }
 
@@ -371,9 +371,12 @@ input {
   width: 100%
 }
 
+.img-circle {
+    border-radius: 50%;
+}
 
 .section-bg-color {
-  background-color: #03C9A9;
+  background-color: #8095a4;
   height: 100%;
   padding-top: 40px;
   padding-bottom: 80px;
@@ -387,7 +390,7 @@ input {
 }
 
 .section-dg-color {
-  background-color: #06967F;
+  background-color: #94b7bb;
   height: 100%;
   padding-top: 40px;
   padding-bottom: 80px;
@@ -479,7 +482,7 @@ input {
 }
 
 .circle-icon .icon {
-  color: #03C9A9;
+  color: #8095A4;
   line-height: 120px;
   text-align: center;
 }
@@ -500,12 +503,13 @@ input {
 }
 
 #g h3 {
-  color: #03C9A9;
+  color: #002B49;
 }
 
 #g i {
-  color: #03C9A9;
+  color: #8095A4;
 }
+
 
 /* TESTIMONIAL SECTION */
 .testimonials {
@@ -526,19 +530,19 @@ input {
 .section-bg-grey h3, .section-bg-grey h1,.section-bg-grey h5, .section-bg-grey p {
   margin-left: 25px;
   margin-right: 25px;
-  color: #5a5a5a;
+  color: #002B49;
 }
 
 /* INVESTMENT CLASSES */
 .investment-class {
   font-size: 20px;
-  color: #03C9A9;
+  color: #8095a4;
 }
 
 .rating {
   font-size: 35px;
   font-weight: 800;
-  color: #828282;
+  color: #FFBB1C;
 }
 
 /* PRICING TAG */
@@ -569,7 +573,7 @@ input {
 }
 
 .price-tag-green {
-  background: #03C9A9;
+  background: #002B49;
   padding-left: 25px;
   padding-right: 25px;
   padding-top: 50px;
@@ -711,7 +715,7 @@ input {
 #feature .icon {
   text-decoration: none;
   color: #fff;
-  background-color: #06967F;
+  background-color: #94b7bb;
   height: 100px;
   text-align: center;
   width: 100px;
@@ -839,7 +843,7 @@ input {
 }
 
 .material-icons.green100 {
-  color: #03C9A9;
+  color: #FFBB1C;
 }
 
 .expectations {
