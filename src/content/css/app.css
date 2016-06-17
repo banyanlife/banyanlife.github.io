@@ -92,7 +92,7 @@ a {
   -o-transition: background-color .4s linear, color .4s linear;
   -ms-transition: background-color .4s linear, color .4s linear;
   transition: background-color .4s linear, color .4s linear;
-  color: #1abc9c;
+  color: #FFBB1C;
 }
 a:hover,
 a:focus {
@@ -279,7 +279,7 @@ input {
   }
 
 .btn-green {
-  background: #FFBB1C;
+  background: #FFB81C;
   color: white;
 }
 
@@ -378,7 +378,7 @@ input {
 }
 
 .section-bg-color {
-  background-color: #8095a4;
+  background-image: url('../img/kidstravel.jpeg');
   height: 100%;
   padding-top: 40px;
   padding-bottom: 80px;
@@ -391,8 +391,22 @@ input {
   color: white;
 }
 
+.section-bg2-color {
+  background-image: url('../img/kids.jpeg');
+  height: 100%;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  height: 475px;
+}
+
+.section-bg2-color h3, .section-bg2-color h1, .section-bg2-color h4, .section-bg2-color h5, .section-bg2-color p {
+  margin-left: 25px;
+  margin-right: 25px;
+  color: white;
+}
+
 .section-dg-color {
-  background-color: #94b7bb;
+  background-color: #002b49;
   height: 100%;
   padding-top: 40px;
   padding-bottom: 80px;
@@ -462,7 +476,7 @@ input {
 .popular-price {
   font-size: 40px;
   font-weight: 350;
-  color: #fff;
+  color: #ffb81c;
   text-align: left;
   padding-left: 20px;
 }
@@ -484,7 +498,7 @@ input {
 }
 
 .circle-icon .icon {
-  color: #8095A4;
+  color: #ffbb1c;
   line-height: 120px;
   text-align: center;
 }
@@ -856,7 +870,7 @@ input {
 
 
 #expecting-process{
-  background-image: url('../img/baby-feet.jpeg');
+  background-image: url('../img/books.jpeg');
   color: #fff;
 }
 
